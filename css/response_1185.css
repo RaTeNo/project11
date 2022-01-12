@@ -244,7 +244,12 @@
     {
         width: 50%;
     }
-
+    .product_info .buy {
+        flex-direction: column;
+    }
+    .product_info .buy_btns {
+        margin-top: 20px;
+    }
     .product_info .image
     {
         width: 360px;

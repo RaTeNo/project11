@@ -560,30 +560,20 @@
     .first_section .img.no_mask > *
     {
         position: relative;
-
         height: 100%;
-
         object-fit: contain;
     }
 
 
-
-    .main_slider .slide .cont
-    {
-        min-height: 450px;
-    }
-
     .main_slider .slide .title
     {
         line-height: 34px;
-
         padding-bottom: 20px;
     }
 
     .main_slider .slide .desc
     {
         line-height: 24px;
-
         margin-top: 25px;
     }
 
@@ -597,7 +587,7 @@
         line-height: 23px;
         width: 100%;
         max-width: 100%;
-        padding: 20px 20px 70px;
+        padding: 20px 20px 30px;
     }
     .main_slider2 .owl-dots {
         display: none;

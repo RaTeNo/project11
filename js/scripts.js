@@ -5,6 +5,7 @@ $(function(){
 		margin: 0,
 		nav: true,
 		dots: true,
+		adaptiveHeight: true,
 		navText: [
 			'<svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.78167 0L0 10L9.78167 20L11.8569 17.8785L5.53394 11.4144H39.6638V8.58564H5.53394L11.8569 2.12155L9.78167 0Z" fill="white"/></svg>',
 	        '<svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M29.8824 0L39.6641 10L29.8824 20L27.8072 17.8785L34.1301 11.4144H0.000263214V8.58564H34.1301L27.8072 2.12155L29.8824 0Z" fill="white"/></svg>'
@@ -26,6 +27,7 @@ $(function(){
 		loop: true,
 		smartSpeed: 750,
 		autoplay: true,
+		adaptiveHeight: true,
 		autoplayTimeout: 5000,
 		onInitialized: function(event){
 			setTimeout(function(){
@@ -64,6 +66,7 @@ $(function(){
 		loop: true,
 		smartSpeed: 750,
 		autoplay: true,
+		adaptiveHeight: true,
 		addClassActive: true,
 		autoplayTimeout: 5000,		
 	})

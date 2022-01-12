@@ -17,8 +17,6 @@
     .block .link
     {
         font-size: 14px;
-        line-height: 40px;
-        height: 40px;
         letter-spacing: 1px;
     }
 
@@ -60,6 +58,7 @@
     .form input[type=checkbox] + label
     {
         font-size: 14px;
+        max-width: 100%;
     }
 
     .form .columns > *.width1of4
@@ -213,12 +212,7 @@
     .article_info .head .data {
         align-items: flex-start;
     }
-    .back_link {
-        line-height: 16px;
-        height: 16px;
-    }
-
-    .article_info .head .info .date
+      .article_info .head .info .date
     {
         font-size: 14px;
         line-height: 18px;
@@ -426,6 +420,7 @@
     .main_slider .slide .info {
         padding-left: 0;
         padding-right: 0;
+        padding-top: 80px;
     }
 
 
@@ -574,6 +569,9 @@
     .stocks .stock .thumb
     {
         height: 230px;
+    }
+    .stocks .stock .info {
+        padding: 21px 0px 28px;
     }
 
     .stocks .stock .thumb + .info
@@ -1016,6 +1014,9 @@
     .main_slider3 {
         padding-top: 100px;
         padding-bottom: 30px;
+    }
+    .main_slider3::before {
+        width: 250%;
     }
    
 

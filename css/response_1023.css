@@ -193,12 +193,15 @@
         text-decoration: none;
     }
     header .logo-mob .desc {
-        color: #789490;
+        color: #fff;
     }
 
     header .info
     {
         order: -2;
+    }
+    header .logo .desc {
+        opacity: 1;
     }
 
     header .bottom .cont
@@ -773,7 +776,7 @@
     {
         line-height: 25px;
         padding: 25px 70px 70px 25px;
-        max-width: 550px;
+        max-width: 440px;
         width: 100%;
     }
     .main_slider2 .owl-dots {
