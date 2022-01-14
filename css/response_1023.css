@@ -1734,6 +1734,9 @@
     .title br {
         display: none;
     }
+    .cart_link .title br {
+        display: block;
+    }
     .director_letter .info::after {
         display: none;
     }

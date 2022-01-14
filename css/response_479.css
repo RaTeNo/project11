@@ -300,8 +300,9 @@
 
 
 
-    .product_info .image
+    .product_info .block_head
     {
+        width: 170px;
     }
 
 
@@ -1017,6 +1018,13 @@
     }
     .main_slider3::before {
         width: 250%;
+    }
+
+    .main_slider3 .slide .img:before {
+        width: 83px;
+        height: 83px;
+        top: 0;
+        right: 11px;
     }
    
 

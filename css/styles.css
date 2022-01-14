@@ -511,7 +511,7 @@ body.lock
     line-height: 16px;
     color: var(--text-color);
     position: relative;
-    display: flex;
+    display: inline-block;
     min-height: 24px;
     padding-left: 36px;
     cursor: pointer;
@@ -2278,6 +2278,9 @@ aside > *:last-child
     outline: 18.5px solid #fff;
     padding: 18.5px;
 }
+.first_section2 .link:hover {
+    background: var(--main_color4);
+}
 
 
 .first_section2 .img > *
@@ -2569,7 +2572,6 @@ aside > *:last-child
 .main_slider .slide .title
 {
     position: relative;
-    max-width: 440px;
     width: 100%;
     padding-bottom: 36px;
     font-family: var(--font_family);
@@ -2879,6 +2881,7 @@ aside > *:last-child
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -3864,12 +3867,19 @@ aside > *:last-child
 }
 .documents_wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: -20px;
+    margin-bottom: -20px;
     padding: 40px 45px 25px;
     background: var(--bg);
     border-radius: 5px 52px;
+}
+.documents_wrap > * {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: calc(100%/8 - 20px);
 }
 
 
@@ -4332,6 +4342,7 @@ aside > *:last-child
     left: 15px;
     border-radius: 50%;
 }
+
 
 
 
@@ -4905,8 +4916,7 @@ aside > *:last-child
 
 .soc_block .widget
 {
-    width: 595px;
-    padding: 50px;
+    padding: 20px;
     background: #fff;
     position: relative;
     box-shadow: 13px 15px 31px rgba(109, 110, 114, 0.131811);
@@ -4920,7 +4930,7 @@ aside > *:last-child
     height: 163px;
     background: url(../images/ic_vk_link.svg);
     bottom: -66px;
-    right: 55px;
+    right: -78px;
     background-size: cover;
 }
 .soc_block .widget:after {
@@ -4938,8 +4948,7 @@ aside > *:last-child
 
 .soc_block.soc_insta .widget
 {
-    width: 595px;
-    padding: 50px;
+    padding: 20px;
     background: #fff;
     position: relative;
     box-shadow: 13px 15px 31px rgba(109, 110, 114, 0.131811);
@@ -4974,7 +4983,7 @@ aside > *:last-child
     line-height: 52px;
 }
 .soc_block-wrapper {
-    width: calc(100% - 670px);
+    width: calc(100% - 540px);
 }
 .soc_block .block_head {
     margin-bottom: 13px;
@@ -8042,8 +8051,7 @@ footer .creator img {
 .agree label a
 {
     color: var(--main_color2);
-
-    margin-left: 5px;
+    display: inline;
 }
 
 .error
