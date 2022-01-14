@@ -1331,9 +1331,13 @@ header .menu .item:hover > a,
 header .menu .item > a.active
 {
     color: #fff;
-    background:  var(--main_color2);
+    background: var(--main_color2);
     border-radius: 26px;
     transition: all .2s linear;
+}
+
+header .menu .item:hover > a.touch_link + .sub_menu {
+    background: var(--main_color4);
 }
 
 header .menu .sub_menu,
@@ -1349,7 +1353,12 @@ header .menu .item:hover > a.touch_link + .sub_menu
     background: var(--main_color2);
     border: none;
     box-shadow: 0px 19px 34px rgba(0, 0, 0, 0.487664);
-    border-radius: 15px;
+    border-radius: 26px;
+}
+
+header .menu .item:hover > a {
+    background: var(--main_color4);
+    border-radius: 26px;
 }
 
 header .menu .item:hover .sub_menu,
@@ -1372,18 +1381,18 @@ header .menu .sub_menu a {
     white-space: nowrap;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 15px 15px 0 0;
+    border-radius: 26px;
     flex-wrap: nowrap;
     border-bottom: 1px solid rgba(0, 0, 0, .18);
     justify-content: flex-start;
 }
 
-/* header .menu .sub_menu a:hover,
-header .menu .sub_menu a.active
-{
-    color: var(--main_color2);
-    background:#fff;
-} */
+header .menu .sub_menu a:hover {
+    background: var(--main_color4);
+}
+
+
+
 
 header .menu .sub_menu div:first-child a:hover
 {
