@@ -288,7 +288,15 @@
         
         white-space: normal;
     }
-
+    header .menu .item > a span:after {
+        top: 50%;
+        right: -23px;
+        width: 8px;
+        height: 8px;
+        margin-top: -4px;
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
+    }
 
     header .menu .sub_menu,
     header .menu .item:hover > a.touch_link + .sub_menu
