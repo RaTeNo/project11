@@ -1412,14 +1412,15 @@ header .menu .flexMenu-viewMore
 
 header .menu .flexMenu-viewMore > a
 {
-       color: #000;
+    font-weight: 700;
     font-size: 12px;
-    font-weight: 300;
-    line-height: 17px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: var(--main_color2);
 
     display: flex;
 
-    height: 40px;
+    height: 52px;
     padding: 15px 40px;
 
     transition: all .2s linear;
@@ -1430,7 +1431,7 @@ header .menu .flexMenu-viewMore > a
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    letter-spacing: 2.7px;
+        border-radius: 26px
 }
 
 header .menu .flexMenu-viewMore > a span
@@ -1471,9 +1472,9 @@ header .menu .flexMenu-viewMore:hover > a span:after
 header .menu .flexMenu-viewMore:hover > a,
 header .menu .flexMenu-viewMore.active > a
 {
-    color: #fff;
-
-    background: var(--main_color2);
+    background: var(--main_color4);
+    border-radius: 26px;
+    color:#fff;
 }
 
 header .menu .flexMenu-popup
@@ -1487,7 +1488,7 @@ header .menu .flexMenu-popup
     padding: 0;
 
     background: var(--main_color2);
-    border:1px solid var(--main_color2);
+    border-radius: 26px;
 }
 
 header .menu .flexMenu-popup > *
@@ -1505,24 +1506,25 @@ header .menu .flexMenu-popup .item
 header .menu .flexMenu-popup .item a
 {
     color: #fff;
-    font-size: 18px;
-    line-height: 29px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
     display: flex;
-    height: 56px;
-    padding: 15px 40px;
+    height: 40px;
+    padding: 12px 60px 14px 15px;
     transition: all .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: none;
-    border-radius: 0;
-    background: var(--main_color2);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    text-transform: uppercase;
+    border-radius: 26px;
     flex-wrap: nowrap;
-        text-transform: uppercase;
-    letter-spacing: 2.7px;
+    border-bottom: 1px solid rgba(0, 0, 0, .18);
+    justify-content: flex-start;
+}
+
+header .menu .flexMenu-popup .item a span:after{
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 
 header .menu .flexMenu-popup .item:first-child a
@@ -1543,7 +1545,7 @@ header .menu .flexMenu-popup .item a.active
 {
     color: #fff;
 
-    background:  var(--main_color2);
+    background:  var(--main_color4);
 }
 
 header .menu .flexMenu-popup .sub_menu,
@@ -4453,7 +4455,7 @@ aside > *:last-child
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    box-shadow: 13px 15px 31px var(--box-shadow-color);   
+    box-shadow: inset 0px 0 11px var(--box-shadow-color);
     background: var(--bg);
     border-radius: 5px 62px 5px 5px;
 }
@@ -6500,7 +6502,7 @@ button:disabled
     position: absolute;
     z-index: 9;
     top: 0;
-    right: 20px;
+    right: 0px;
     display: flex;
     padding-top: 11px;
     text-align: right;
@@ -7117,6 +7119,7 @@ button:disabled
     display: block;
     box-shadow: none;
     height: auto;
+    min-height: auto;
 }
 
 .image_tips .image .info .close
@@ -9123,7 +9126,6 @@ header .menu .item .item:hover .sub_menu{
 header .menu .sub_menu a.sub_link span:after {
     position: absolute;
     top: 50%;
-    right: -90%;
     display: block;
     width: 5px;
     height: 5px;
