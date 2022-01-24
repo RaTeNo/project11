@@ -867,8 +867,7 @@
 
     .product_info .cart_link .count
     {
-        position: relative;
-        top: -15px;
+     
     }
 
     .product_info .data
@@ -1019,7 +1018,5 @@
     .before_after .block_head {
         width: 300px;
     }
-
-
 
 }

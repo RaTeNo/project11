@@ -267,9 +267,7 @@
         background: none;
     }
 
-    header .menu .sub_menu a.sub_link span:after {
-        display: none;
-    }
+   
     header .menu .item > a span {
         padding-right: 0px;
     }
@@ -748,6 +746,7 @@
         width: 100%;
         max-width: 100%;
         margin: 0;
+        padding: 20px;
     }
     .first_section .info:before {
         display: none;
@@ -1962,4 +1961,13 @@
         height: 450px;
     }
 
+    header .bottom{
+        background:none;
+        border:none;
+        border-radius: 0;
+    }
+
+    header .menu .sub_menu, header .menu .item:hover > a.touch_link + .sub_menu{
+        box-shadow: none;
+    }
 }
