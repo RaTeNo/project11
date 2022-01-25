@@ -769,6 +769,10 @@
         height: 50px;
         padding: 10px;
     }
+    .contacts_info .info .icon img {
+        width: 30px;
+        height: 30px;
+    }
 
     .contacts_info .info .val a
     {
@@ -1034,7 +1038,7 @@
         line-height: 24px;
     }
     .contacts_info .info .flex > *{
-        margin-bottom:10px;
+        margin-bottom:0px;
     }
 
     .articles .article .inner{
@@ -1270,6 +1274,9 @@
     }
     .email, .phone {
         margin-bottom: 30px;
+    }
+    .contacts_info .email, .phone {
+        margin-bottom: 0px;
     }
     .faq .item .title i {
         width: 45px;

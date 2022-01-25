@@ -5599,9 +5599,9 @@ aside > *:last-child
 }
 .cart_info .product .product_delete
 {
-    margin-right: 20px;
-
+    margin-left: 20px;
     cursor: pointer;
+    color: crimson;
 }
 .cart_info .product + .product
 {
@@ -5672,7 +5672,9 @@ aside > *:last-child
     margin-top: 3px;
     font-weight: 500;
     color: var(--text-color);
+    display: flex;
 }
+
 
 .cart_info .product .video_link a
 {

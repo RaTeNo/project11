@@ -689,7 +689,7 @@ $(function(){
 
 	$('.product_delete').click(function(e){
 		e.preventDefault();
-		$(this).parent().parent().remove();
+		$(this).parent().parent().parent().remove();
 	});
 
 
