@@ -7678,49 +7678,73 @@ button:disabled
 
 .contacts_info .info .flex
 {
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
-    align-content: stretch;
-    background: #fff;
-    box-shadow: 13px 15px 31px #e1d7c4;
-    padding: 46px 75px 57px;
+    align-content: stretch;    
     display: flex;
+    margin-left: -40px;
+    margin-top: 90px;
+    margin-bottom: -80px;
 }
 .contacts_info .info .flex > *
 {
-    width: calc(50% - 40px);
-    margin-bottom: 40px;
+    width: calc(33.333% - 40px);
+    margin-bottom: 80px;
+    margin-left: 40px;
 }
 .contacts_info .info .item {
     position: relative;
-    display: flex;
+    display: inline-flex;
     text-align: start;
-    padding: 14px;
+    padding: 86px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 13px 15px 31px #E1D7C4;
+    justify-content: center;
 }
-
+.contacts_info .info .item:nth-child(4),
+.contacts_info .info .item:nth-child(5) {
+    margin-left: 93px;
+    width: calc(50% - 94px);
+    padding-top: 46px;
+    text-align: start;
+    margin-top: -40px;
+}
+.contacts_info .info .item:nth-child(4) .description,
+.contacts_info .info .item:nth-child(5) .description {
+    text-align: start
+}
 .contacts_info .info .item:after
 {
     position: absolute;
     z-index: -1;
     bottom: -15px;
-
     width: 90%;
     height: 80%;
-
     content: '';
-
     border-radius: 16px;
 }
 .contacts_info .info .icon {
     display: flex;
-    width: 99px;
-    height: 99px;
+    width: 104px;
+    height: 104px;
     background: var(--main_color2);
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
     flex-shrink: 0;
+    border-radius: 37px 0px;
+    position: absolute;
+    top: -52px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contacts_info .info .item:nth-child(4) .icon,
+.contacts_info .info .item:nth-child(5) .icon {
+    top: 50%;
+    left: -52px;
+    transform: translateX(0);
+    transform: translateY(-50%);
 }
 .contacts_info .info .icon img
 {
@@ -7730,9 +7754,7 @@ button:disabled
     fill: var(--main_color2);
 }
 .contacts_info .info .description {
-    text-align: start;
-    margin-left: 34px;
-    display: block;
+    text-align: center;
 }
 .contacts_info .info .title {
     width: 100%;
@@ -7756,8 +7778,6 @@ button:disabled
     line-height: 28px;
 
     width: 100%;
-
-    text-align: start;
 }
 .contacts_info .info .val > * + *
 {

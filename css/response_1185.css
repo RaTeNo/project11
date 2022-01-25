@@ -819,22 +819,10 @@
 
 
 
-    .contacts_info .info .flex
-    {
-    }
-    .contacts_info .info .flex > *
-    {
-        width: calc(50%);
-    }
-    .contacts_info .info .icon
-    {
-        top: 20px;
-        left: 20px;
-    }
 
-    .news .flex
-    {
-    }
+
+
+
 
 
     .news .flex > *

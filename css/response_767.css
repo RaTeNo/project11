@@ -994,7 +994,7 @@
     .three_photo .photo
     {
         max-width: 100%;
-        margin: 35px auto 0;
+        margin: 0px auto 0;
     }
 
 
@@ -1110,18 +1110,43 @@
 
 
     .contacts_info .info .flex {
-        padding: 20px;
+        margin-top: 35px;
+        margin-bottom: -40px;
     }
-
     .contacts_info .info .flex > * {
         width: 100%;
-        flex-direction: row;
+        margin-bottom: 40px;
     }
-    .contacts_info .info .description {
-        margin-top: 0px;
-        margin-left: 25px;
+    .contacts_info .info .item:nth-child(4), 
+    .contacts_info .info .item:nth-child(5) {
+        width: 100%;
+        margin-left: 40px;
+        padding: 75px 20px 20px;
+        margin-top: 0;
     }
-
+    .contacts_info .info .icon {
+        display: flex;
+        width: 70px;
+        height: 70px;
+    }
+    .contacts_info .info .icon {
+        top: -25px;
+    }
+    .contacts_info .info .item:nth-child(4) .icon, 
+    .contacts_info .info .item:nth-child(5) .icon {
+        top: -25px;
+        left: 50%;
+        transform: translateY(0);
+        transform: translateX(-50%);
+    }
+    .contacts_info .info .icon img {
+        width: 35px;
+        height: 35px;
+    }
+    .contacts_info .info .item:nth-child(4) .description,
+    .contacts_info .info .item:nth-child(5) .description {
+        text-align: center;
+    }
 
     .contacts_info .map
     {

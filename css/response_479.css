@@ -564,6 +564,9 @@
         height: 260px;
         margin-top: 0;
     }
+    .contacts_block .map iframe {
+        border-radius: 0px 65px 5px 135px;
+    }
 
 
 
@@ -750,6 +753,9 @@
 
 
 
+    .contacts_info .info .icon {
+        border-radius: 20px 0px;
+    }
     .contacts_info .info .val a,
     .contacts_info .info .val
     {
@@ -762,12 +768,7 @@
         font-weight: bold;
         line-height: 19px;
     }
-    .contacts_info .info .icon
-    {
-        width: 50px;
-        height: 50px;
-        padding: 10px;
-    }
+
     .contacts_info .info .icon img {
         width: 30px;
         height: 30px;
@@ -1036,10 +1037,6 @@
         font-size:20px;
         line-height: 24px;
     }
-    .contacts_info .info .flex > *{
-        margin-bottom:0px;
-    }
-
     .articles .article .inner{
         padding: 20px;
     }
