@@ -7678,30 +7678,24 @@ button:disabled
 
 .contacts_info .info .flex
 {
-    margin-bottom: -40px;
-
     justify-content: center;
     align-items: stretch;
     align-content: stretch;
-    background: var(--bg);
+    background: #fff;
+    box-shadow: 13px 15px 31px #e1d7c4;
+    padding: 46px 75px 57px;
+    display: flex;
 }
 .contacts_info .info .flex > *
 {
-    width: calc(33.333% - 40px);
+    width: calc(50% - 40px);
     margin-bottom: 40px;
 }
-.contacts_info .info .item
-{
+.contacts_info .info .item {
     position: relative;
-
     display: flex;
-
-    padding: 20px 20px 20px 20px;
-
-    text-align: center;
-
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: start;
+    padding: 14px;
 }
 
 .contacts_info .info .item:after
@@ -7717,44 +7711,43 @@ button:disabled
 
     border-radius: 16px;
 }
-
-
-.contacts_info .info .icon
-{
+.contacts_info .info .icon {
     display: flex;
-
-    width: 105px;
-    height: 105px;
-
-    border-radius: 50%;
+    width: 99px;
+    height: 99px;
     background: var(--main_color2);
-
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 .contacts_info .info .icon img
 {
     display: block;
-
     width: 50px;
     height: 50px;
-
     fill: var(--main_color2);
 }
-.contacts_info .info .title
-{
+.contacts_info .info .description {
+    text-align: start;
+    margin-left: 34px;
+    display: block;
+}
+.contacts_info .info .title {
     width: 100%;
-    margin-top: 33px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     font-family: var(--font_family);
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
     color: #3A3A3A;
+}
+.contacts_info .info .email, 
+.contacts_info .info .phone, 
+.contacts_info .info .adres {
+    margin-bottom: 0px;
 }
 .contacts_info .info .val
 {
@@ -7762,9 +7755,9 @@ button:disabled
     font-size: var(--font_size);
     line-height: 28px;
 
-    width: 90%;
+    width: 100%;
 
-    text-align: center;
+    text-align: start;
 }
 .contacts_info .info .val > * + *
 {

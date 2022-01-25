@@ -1484,9 +1484,13 @@
     .contacts_info .info .flex
     {
     }
-    .contacts_info .info .flex > *
-    {
+    .contacts_info .info .flex > * {
         width: calc(50%);
+        flex-direction: column;
+    }
+    .contacts_info .info .description {
+        margin-top: 18px;
+        margin-left: 0px;
     }
 
     .cart_info .product .thumb

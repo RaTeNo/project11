@@ -1109,10 +1109,17 @@
     }
 
 
+    .contacts_info .info .flex {
+        padding: 20px;
+    }
 
-    .contacts_info .info .flex > *
-    {
-        width: calc(100% - 20px);
+    .contacts_info .info .flex > * {
+        width: 100%;
+        flex-direction: row;
+    }
+    .contacts_info .info .description {
+        margin-top: 0px;
+        margin-left: 25px;
     }
 
 
