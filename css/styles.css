@@ -7709,10 +7709,7 @@ button:disabled
     text-align: start;
     margin-top: -40px;
 }
-.contacts_info .info .item:nth-child(4) .description,
-.contacts_info .info .item:nth-child(5) .description {
-    text-align: start
-}
+
 .contacts_info .info .item:after
 {
     position: absolute;
@@ -7786,11 +7783,8 @@ button:disabled
 .contacts_info .info .val a
 {
     color: #68adff;
-
     display: inline-block;
-
     vertical-align: top;
-    letter-spacing: 1.27px;
     word-break: break-all;
 }
 .contacts_info .info .val a.ic_whatsapp
