@@ -1027,7 +1027,7 @@ header > .close span:nth-child(2)
 
 header .info
 {
-    padding: 30px 0 32px;
+    padding: 30px 0 30px;
     background: #fff;
 }
 
@@ -1035,6 +1035,7 @@ header .info .cont.flex
 {
     justify-content: space-between;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 header .logo
@@ -1224,19 +1225,25 @@ header .contacts .email a:hover
 {
     text-decoration: underline;
 }
-header .contacts > div:first-child
-{
-    margin-bottom: 10px;
-}
+
+
 header .contacts .phones
 {
     display: flex;
 
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;  
+    max-width: 500px;
 }
+@media (min-width: 1024px)
+{
+    header .contacts .phones a:nth-child(3), header .contacts .phones a:nth-child(4){
+        margin-top: 10px;
+    }
+}
+
 header .contacts .phones a span {
     font-size: 18px;
     line-height: 21px;
@@ -2252,9 +2259,9 @@ aside > *:last-child
     position: absolute;
     border-radius: 0 0 100% 0;
     width: 105%;
-    height: 146%;
+    height: 100%;
     display: block;
-    top: -46%;
+    top: 0;
     background: var(--main_color2);
     z-index: -1;
     left: 0%;
@@ -6578,6 +6585,10 @@ button:disabled
     width: 420px;
     max-width: 100%;
 }
+.upload .info .block_head .desc{
+    
+    text-align: left;
+}
 .upload .info .form
 {
     width: 100%;
@@ -8934,7 +8945,7 @@ header.fixed {
 }
 
 header.fixed .info {
-    padding: 20px 0 10px;
+    padding: 10px 0 10px;
 }
 
 .mob_header.fixed {
