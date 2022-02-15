@@ -1463,8 +1463,8 @@ header .menu .flexMenu-viewMore > a span:after
     content: '';
     transform: rotate(-45deg);
 
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
+    border-bottom: 2px solid var(--main_color2);
+    border-left: 2px solid var(--main_color2);
 }
 
 header .menu .flexMenu-viewMore .item > a span:after{

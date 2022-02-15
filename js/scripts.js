@@ -814,15 +814,18 @@ $(function(){
 	    var root = document.querySelector(':root');
 	    root.style.setProperty('--main_color1', color1);
 	    root.style.setProperty('--main_color2', color2);
+	    root.style.setProperty('--main_color3', color1);
+	    root.style.setProperty('--main_color4', color1);
 
 	    let rgba = hexDec(color1);
 	    
-	    root.style.setProperty('--box-shadow-color', "rgba("+rgba+",0.35)");
+	    //root.style.setProperty('--box-shadow-color', "rgba("+rgba+",0.35)");
 
 	    let rgba_opacity = hexDec(color2);
 
-	    root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	    
+	    //root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	    
     }
+
 
 
 
