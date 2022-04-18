@@ -41,7 +41,7 @@
     height: 6px;
 
     border-radius: 5px;
-    background: #123832;
+    background: rgb(0 0 0 / 51%);
 }
 
 
@@ -81,7 +81,7 @@
 
     cursor: pointer;
     text-indent: -9999px;
-    background: #D8A83A;
+    background: var(--main_color4);
     border-radius: 50%;
 }
 

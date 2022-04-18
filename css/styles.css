@@ -1826,7 +1826,7 @@ aside .block:nth-child(2n) {
 
 aside .block .title
 {
-    color: var(--main_color4);
+    color: #fff;
     position: relative;
     display: flex;
     padding: 19px 21px 16px;
@@ -2316,7 +2316,7 @@ aside > *:last-child
     font-size: 43px;
     line-height: 46px;
     letter-spacing: -1.9px;
-    color: var(--main_color4);
+    color: #fff;
     max-width: 480px;
     width: 100%;
     margin-bottom: 31px;
@@ -2591,7 +2591,7 @@ aside > *:last-child
     line-height: 46px;
     text-align: center;
     letter-spacing: -2.38605px;
-    color: var(--main_color4);
+    color: #fff;
 
 }
 .main_slider .slide .desc
