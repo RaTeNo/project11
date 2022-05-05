@@ -1621,14 +1621,14 @@
     }
 
     header .menu .item a.touch_link + .sub_menu.show a {
-        padding-left:40px;   
-        background: #183632;     
+        padding-left:0px;   
+        background: var(--main_color1);  
     }
     header .menu .flexMenu-popup .item > a.touch_link + .sub_menu.show {
         background: rgba(0, 0, 0, 0.32);
     }
     header .menu .item a.touch_link + .sub_menu.show .sub_menu a{
-        padding-left:50px;
+        /*padding-left:50px;*/
     }
 
     .block_checkform{

@@ -2501,6 +2501,10 @@ aside > *:last-child
     position: relative;
     overflow: hidden;
 }
+
+.main_slider3{
+    margin-bottom: 0 !important;
+}
 .main_slider3 .slide
 {
     position: relative;
@@ -2825,7 +2829,7 @@ aside > *:last-child
     font-size: 43px;
     line-height: 46px;
     letter-spacing: -1.9px;
-    color: var(--main_color4);
+    color: #fff;
     margin-bottom: 31px;
     max-width: 440px;
 }
@@ -5505,7 +5509,7 @@ aside > *:last-child
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.795349px;
-    color: var(--main_color4);
+    color: #fff;
     margin-top: 9px;
 }
 
@@ -8650,6 +8654,7 @@ footer .creator img {
     bottom: 15px;
     z-index: 4;
     left: 76%;
+
 }
 .main_slider3 .owl-dot {
     background: #000;
@@ -9679,3 +9684,6 @@ aside .cats label:after{
 
 
 
+.works_item{
+    height: 250px;
+}
