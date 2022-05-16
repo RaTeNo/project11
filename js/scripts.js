@@ -823,7 +823,12 @@ $(function(){
 
 	    let rgba_opacity = hexDec(color2);
 
-	    //root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	    
+	    //root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	  
+
+	    let rgba_shadow = hexDec(color1);
+
+	    root.style.setProperty('--box-shadow-color', "rgba("+rgba_shadow+",0.1)");	     
+  
     }
 
 
