@@ -3746,7 +3746,6 @@ aside > *:last-child
     width: 100%;
     text-align: start;
     color: #fff;
-    opacity: 0.4;
 }
 .prices .flex
 {
@@ -5500,7 +5499,7 @@ aside > *:last-child
     font-size: 22px;
     line-height: 25px;
     letter-spacing: -0.972093px;
-    color: var(--main_color4);
+    color: #fff;
 }
 .content .product .price
 {
