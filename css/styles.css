@@ -3363,7 +3363,7 @@ aside > *:last-child
     display: block;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 350px;
     box-shadow: 13px 15px 31px rgba(109, 110, 114, 0.131811);
     border-radius: 5px 47px 5px 5px;
 }
