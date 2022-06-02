@@ -751,7 +751,7 @@ body.lock
     margin-bottom: 30px;
 }
 .text_blocks .text_block p:last-child {
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .text_block img
